@@ -20,7 +20,7 @@ body{
 
 .containerServices{
     margin-top: 30px;
-  overflow-x: hidden;
+    overflow: hidden;
 }
 
 .title{
@@ -33,9 +33,9 @@ body{
 .franjaServices{
     margin-top: 20px;
     background-color: #FFBD00;
-    transform: rotate(3deg);
-    width: 106%;
-    margin-left: -3%;
+    transform: rotate(5deg);
+    width: 110%;
+    margin-left: -5%;
     
 }
 
@@ -45,8 +45,13 @@ body{
     display: flex;
     justify-content: center;
     column-gap: 10%;
-    transform: rotate(-3deg);
+    transform: rotate(-5deg);
     align-items: center;
+}
+
+.deg{
+    margin-top: 5px;
+    transform: rotate(0deg);
 }
 
 .textInfo{
@@ -74,7 +79,38 @@ body{
     width: 440px;
     border-radius: 60px;
     box-shadow: 12px 17px 4px 0px #B9860A;
+}
 
+.imgDesign img{
+    height: 300px;
+    width: 500px;
+}
+
+.degArts{
+    transform: rotate(-5deg);
+}
+
+.degContentArts{
+    transform: rotate(5deg);
+}
+
+.imgConceptArts img{
+    border-radius: 20px;
+    box-shadow: 16px 23px 4px 0px #B9860A;
+    height: 220px;
+    width: 440px;
+}
+
+.marginTopArts{
+    margin-top:50px;
+
+}
+
+.imgGuiones img{
+    height: 300px;
+    width: 440px;
+    border-radius: 60px;
+    box-shadow: 12px 17px 4px 0px #B9860A;
 }
 
 .mobil{
@@ -90,6 +126,11 @@ body{
 
     .imgService  img{
         width: 400px;
+    }
+
+    .deg{
+        margin-top: 40px;
+        
     }
 }
 

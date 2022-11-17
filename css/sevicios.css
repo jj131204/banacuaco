@@ -14,12 +14,13 @@
 
 body{
     background-color: #fff;
-    overflow-x: hidden;
+    
     width: 100%;
 }
 
 .containerServices{
     margin-top: 30px;
+  overflow-x: hidden;
 }
 
 .title{
@@ -118,7 +119,7 @@ body{
       }
 
       .descriptionService p{
-        width: 50%;
+        width: 100%;
         margin: auto;
       }
   }

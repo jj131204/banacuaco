@@ -41,7 +41,7 @@
 }
 
 .optionsLanguaje{
-    width: 25%;
+    width: 30%;
     height: 60px;
     background-color: #80240B;
     column-gap: 20px;
@@ -54,7 +54,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    column-gap: 5%;
+    column-gap: 10%;
 }
 
 .spanish,

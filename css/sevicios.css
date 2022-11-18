@@ -3,6 +3,11 @@
     src: url("../fonts/arnold-21_[allfont.es].ttf");
 }
 
+@font-face {
+    font-family: "roboto-bold";
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +33,7 @@ body{
     color: #005E9B;
     text-align: center;
     font-size: 40px;
+    margin-bottom: 50px;
 }
 
 .franjaServices{
@@ -36,7 +42,7 @@ body{
     transform: rotate(5deg);
     width: 110%;
     margin-left: -5%;
-    
+    padding: 2%;    
 }
 
 .contentInfo{
@@ -70,8 +76,15 @@ body{
 .descriptionService{
     margin-top: 15px;
     color: #0000;
-    font-family: "roboto-semibold";
+    font-family: "roboto-bold";
     text-align: justify;
+}
+
+.descriptionService p{
+    color: #000;
+    font-size: 18px;
+    font-family: "roboto-bold";
+
 }
 
 .imgService img{
@@ -137,7 +150,7 @@ body{
 
 .foundImgService{
     background-image: url("../img/CLC_Ca_03_Es_7_T_1.jpg");
-    height: 300px;
+    height: 350px;
     width: 100vw;
     margin-top: -5%;
 }
@@ -153,6 +166,10 @@ body{
     margin-right: 5%;
     margin-left: auto;
     text-align: justify;
+}
+
+.postproductionTitle{
+    color: #005E9B;
 }
 
 .contentContact{

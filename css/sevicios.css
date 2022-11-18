@@ -163,4 +163,27 @@ body{
         width: 100%;
         margin: auto;
       }
+
+    .imgService img{
+        margin: auto;
+        display: flex;
+        width: 90%;
+    }
+
+    .imgDesign img{
+        margin: auto;
+        display: flex;
+        width: 90%;
+    }
+    .imgConceptArts img{
+        margin: auto;
+        display: flex;
+        width: 90%;
+    }
+    .imgGuiones img{
+        margin: auto;
+        display: flex;
+        width: 90%;
+        height: 220PX;
+    }
   }

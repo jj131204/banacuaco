@@ -103,15 +103,38 @@ body{
 
 .marginTopArts{
     margin-top:50px;
-
 }
 
 .imgGuiones img{
     height: 300px;
     width: 440px;
     border-radius: 60px;
-    box-shadow: 12px 17px 4px 0px #B9860A;
 }
+
+.contentStoryBoards{
+    transform: rotate(-5deg);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    margin: auto;
+        display: flex;
+}
+
+.textInfoHistory{
+    margin-bottom: 15px;
+    margin-left: 2%;
+}
+
+.imgStory img{
+    width: 90vw;
+    height: 220px;
+    margin: auto;
+        display: flex;
+}
+
 
 .mobil{
     display: none;
@@ -167,23 +190,23 @@ body{
     .imgService img{
         margin: auto;
         display: flex;
-        width: 90%;
+        width: 90vw;
     }
 
     .imgDesign img{
         margin: auto;
         display: flex;
-        width: 90%;
+        width: 90vw;
     }
     .imgConceptArts img{
         margin: auto;
         display: flex;
-        width: 90%;
+        width: 90vw;
     }
     .imgGuiones img{
         margin: auto;
         display: flex;
-        width: 90%;
+        width: 90vw;
         height: 220PX;
     }
   }

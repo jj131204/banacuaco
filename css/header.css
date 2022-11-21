@@ -61,7 +61,7 @@
 .english{
     display: flex;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 10px;cursor: pointer;
 }
 
 .spanish img,
@@ -75,5 +75,93 @@
     font-family: "arnold";
     font-size: 16px;
     color: #fff;
+}
+
+/**
+Menu hamburguesa
+*/
+
+#btnMenu {
+    display: none;
+}
+
+.hamburgerMenu{
+    display: none;
+}
+
+
+.menu{
+    display: none;
+}
+
+.contentMenu{
+    background-color: #FFBD00;
+    width: 100vw;
+    max-width: 290px;
+    height: calc(100vh - 240px);
+    overflow: auto;
+    margin-right: 0%;
+    margin-left: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.contentMenu a p{
+    font-family: "arnold";
+    color: #80240B;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+
+#btnMenu:checked ~ .menu {
+    display: block;
+    margin-left: calc(100% - 290px);
+  }
+
+
+@media screen and (max-width: 768px) {
+    .imgHeader {
+        height: 140px;
+        width: 100%;
+      }
+
+    .navBar{
+        display: none;
+    }
+
+    .hamburgerMenu{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        height: 50px;
+        background-color: #FFBD00;
+        padding: 0 5%;
+    }
+
+  
+    .iconoMenu {
+        display: flex;
+        justify-content: end;
+        cursor: pointer;
+        height: 40px;
+    }
+      
+    .optionsLanguaje{
+        width: 100%;
+        height: 50px;
+    }
+
+    .spanish img,
+    .english img{
+    height: 30px;
+    width: 35px;
+}
 }
 

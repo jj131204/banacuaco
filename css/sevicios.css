@@ -166,13 +166,13 @@ body{
 .textPostproduction{
     width: 30%;
     align-items: center;
-    padding-top: 5%;
+    padding-top: 10%;
     margin-right: 5%;
     margin-left: auto;
     text-align: justify;
 }
 
-.postproductionTitle{
+.postproductionTitle h3{
     color: #005E9B;
 }
 
@@ -283,6 +283,6 @@ body{
   .textPostproduction{
      width:100%; 
      padding: 30px;
-     margin-top:45%;
+     margin-top:35%;
   }
   }

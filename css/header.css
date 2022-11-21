@@ -98,7 +98,7 @@ Menu hamburguesa
     background-color: #FFBD00;
     width: 100vw;
     max-width: 290px;
-    height: calc(100vh - 240px);
+    height: 100vh;
     overflow: auto;
     margin-right: 0%;
     margin-left: auto;

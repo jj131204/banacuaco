@@ -22,6 +22,7 @@
     margin-top: 50px;
     overflow: hidden;
     margin-bottom: 15%;
+
 }
 
 .title p{
@@ -81,8 +82,9 @@
     
     align-items: center;
     margin-top: -3%;
-    display: grid;
-    grid-template-columns: 4fr 3fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    
     
     
 }

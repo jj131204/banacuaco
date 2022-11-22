@@ -23,14 +23,14 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10%;
+
 }
 
 .titleUs{
     text-align: center;
     font-size: 40px;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .titleUs h3{
@@ -98,8 +98,9 @@
 
 
 .description p{
-    font-size: 20px;
-    line-height: 33px;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "roboto-bold";
 }
 
 .imgHistory{
@@ -123,21 +124,23 @@
     padding: 0 5%;
     
 }
+
+.BackgroundTeam{
+    background-color: #FEBD00;
+    padding-top: 3%;
+}
 .containerTeam{
     margin-bottom: 20px;
+    
 }
    
 
 .titleTeam h3{
     text-align: center;
     font-size: 40px;
-    background-color: #FEBD00;
     font-family: "arnold";
     color: #653392;
     padding-bottom: 5%;
-    position: relative;
-    top: 21px;
-    padding-top: 20px;
 }
 
 .imgTeam img{

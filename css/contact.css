@@ -106,7 +106,7 @@
 
 .buttonSend button{
     background-color: #fff;
-    padding: 10px 20px ;
+    padding: 10px 40px ;
     font-family: "arnold";
     color: #008CDB;
     font-size: 30px;
@@ -115,5 +115,32 @@
     cursor: pointer;
     outline: none;
     border: 0;
+}
+
+@media screen and (max-width: 768px){
+    .containerForm{
+        width: 95%;
+        padding: 34px 3px;
+        border-radius: 30px;
+    }
+    .optionsForm{
+        flex-direction: column;
+        align-items: start;
+        width: 90%;
+        row-gap: 10px;
+    }
+
+    .optionsForm input{
+        width: 100%;
+    }
+
+    .optionsFormMessaje{
+        width: 90%;
+        align-items: start;
+        row-gap: 10px;
+    }
+    .optionsFormMessaje textarea{
+        padding-top: 20px;
+    }
 }
 

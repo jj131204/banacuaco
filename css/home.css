@@ -20,8 +20,8 @@
 
 .containerHero{
     margin-top: 50px;
+    
     overflow: hidden;
-    margin-bottom: 15%;
 
 }
 
@@ -68,14 +68,14 @@
     display: none;
 }
 
-
 .franjaServices{
-    margin-top: 20px;
+
     background-color: #FFBD00;
     transform: rotate(5deg);
     width: 110%;
     margin-left: -5%;
-    padding: 1%;  
+    padding: 1% 5%;
+    margin-top: 15%;
     
 }
 .textInfo{
@@ -84,9 +84,7 @@
     margin-top: -3%;
     display: flex;
     justify-content: space-between;
-    
-    
-    
+
 }
 
 .contentInfo{
@@ -128,27 +126,25 @@
 
 @media screen and (max-width: 1220px) {
     .imgKimia img {
-        height: 350px;
-        width: 450px;
-        margin-bottom: 50px;
+        height: 300px;
+        width: 400px;
+        margin-bottom: 35px;
 }
-    .textInfo {
-        grid-template-columns: 4fr 4fr 1fr;
-       
-}
-    .descriptionService {
-        margin-left: 45px;
-}
+
+
     
     
 .titleSecund h3 {  
     width: 100%;
+    margin-top: 40px;
 }
 
 .imgKimiaPerson img {
-    position: relative;
-    left: 25px;
+    display: none;
 }
+
+
+
 }
 @media screen and (max-width: 902px) {
 
@@ -159,4 +155,25 @@
     .mobile{
         display: block;
     }
+    .descriptionService {
+        text-align: center;
+}
+.imgKimia img {
+    height: 250px;
+    width: 350px;
+
+}
+
+  .franjaServices {
+
+    padding: 1% 5%;
+}
+
+.descriptionService p {
+   
+    margin:auto;
+    text-align:justify;
+    width:70%;
+    padding-bottom: 5%;
+}
 }
